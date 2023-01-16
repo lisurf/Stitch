@@ -1,0 +1,675 @@
+body{
+    background-color: #212121 !important;
+    color: #ffffff;
+    font-family: MYRIADPRO-REGULAR;
+}
+
+
+h1 {
+  text-align: center;
+  color: #ba225c;
+  margin-top: 90px;
+  margin-bottom: 70px;
+  font-family: Portico-Outline;
+  font-size: 28px;
+  font-weight: 1000;
+}
+
+u{
+  text-decoration: underline;
+  text-decoration-color:#07EFEF;
+}
+
+.p1 {
+  text-align: center;
+  color: #ffffff;
+  font-family: MYRIADPRO-REGULAR;
+  font-size: 22;
+  padding: 0px 200px 0px 200px;
+}
+
+.esquerda {
+  background-color: #212121;
+  float: left;
+}
+
+.centro {
+  background-color: #212121;
+  float: left;
+}
+
+.direita {
+  background-color: #212121;
+  float: left;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.nav-pink{
+  height: 47px;
+  background-color: #ba225c;
+  color: #999999;
+  font-size: 16px;
+  vertical-align: middle;
+  font-family: lemonMilkLight;
+  top: 0px;
+}
+
+.dropdown-item{
+    color: #ffffff;
+}
+
+.btnlogin {
+  background-color: #212121;
+  border: none;
+  padding: 0px;
+}
+
+.form-control{
+  background-color: #212121;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  color: white;
+  height: 41px;
+  width: 291px;
+}
+
+.form-control:focus {
+  background: #212529;
+  color: white;
+}
+
+.btn1 {
+  border-radius: 15px;
+  height: 46px;
+  width: 291px;
+  background-color: #ba225c;
+  color: #ffffff;
+  font-size: 21px;
+  font-family: MYRIADPRO-REGULAR;
+  border: none;
+  position: relative;
+}
+
+.btn1:hover {
+  background-color: #ad215a;
+}
+
+.btn2 {
+  border-radius: 15px;
+  height: 46px;
+  width: 291px;
+  background-color: #212121;
+  color: #07EFEF;
+  border-color: #07EFEF;
+  font-size: 21px;
+  font-family: MYRIADPRO-REGULAR;
+  border-style: solid;
+  border-width: small;
+  position: relative;
+}
+
+.btn2:hover {
+  background-color: #07EFEF;
+  color: #ffffff;
+}
+
+.icon-login{
+  height: 40px;
+  padding-right: 16px;
+}
+
+.icon-login:hover{
+  opacity: 0.75;
+}
+
+.background404{
+  position: relative;
+  float: left;
+}
+
+.blur-404{
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  opacity: 80%;
+}
+
+.pink-404{
+  position: absolute;
+  z-index: 3;
+  width: 600px;
+  height: 620px;
+  margin-left: 320px;
+  margin-top: 190px;
+}
+
+#text-icons{
+    font-size: 20px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+#stitch-navbar{
+    height: 113px;
+}
+
+
+#stitch-logo{ /*MAKE RESPONSIVE*/
+    max-height: 106px;
+    max-width: 273px;
+    margin-left: 67px;
+}
+
+#header-logos{
+    width:32px;
+    height:32px;
+}
+
+#margin-right{
+    margin-right: 20px;
+}
+
+#dropdown-menu{
+    background-color: #ad215a;
+}
+
+#color{
+    color: #ffffff;
+}
+
+#icon{
+    fill: #ffffff;
+    height: 16px;
+    align-content: center;
+}
+
+#icon-footer{
+    fill: #ffffff;
+    height: 40px;
+    align-content: center;
+}
+
+#icon-categories-h{
+  align-content: center;
+  height: 90px;
+  color:#ffffff;
+}
+
+#icon-categories-w{
+  align-content: center;
+  width: 90px;
+  color:#ffffff;
+}
+
+#icon-categories-wplus{
+  align-content: center;
+  width: 95px;
+  color:#ffffff;
+}
+
+
+
+/* ------------ INDEX ------------ */
+.img {
+  width: 180px;
+  height: 180px;
+  border-radius: 14px;
+}
+
+.imgslide {
+  width:127px;
+  height:116px;
+  border-radius: 13px;
+}
+
+.borderr {
+  text-align:center;
+  border-style:solid;
+  border-color:#ba225c;
+  border-width:2px;
+  margin-top:8px;
+  border-radius: 6px;
+}
+
+.index-text{
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.index-text ul li a:hover{
+  color: #ffffff;
+}
+
+.gamenames {
+  width:180px;
+  text-align:left;
+  padding-left:15px;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+h2{
+  color: #ba225c;
+  font-size: 28px;
+  font-family: Portico-outline;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-weight: 1000;
+}
+
+h3{
+  color: #ba225c;
+  font-size: 40px;
+  font-family: Portico-outline;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: 1000;
+}
+
+.carousel-control-next-icon {
+  margin-left: 90px;
+  background-image: url("icons/right-arrow.svg");
+}
+
+.carousel-control-prev-icon {
+  background-image: url("icons/left-arrow.svg");
+}
+
+.carousel-control-next, .carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 0.8;
+  transition: opacity .15s ease;
+}
+
+.carousel-control-next:hover{
+  opacity: 1;
+}
+
+.carousel-control-prev:hover {
+  opacity: 1;
+}
+
+.categoriasplus {
+  font-family: MYRIADPRO-REGULAR;
+  text-decoration: underline;
+  color: #ba225c;
+}
+
+.categoriasplus:hover {
+  color: #ba225c;
+}
+
+#icon-categories-index-h{
+  height: 60px;
+  color:#ffffff;
+}
+
+#icon-categories-index-h-plus{
+  height: 70px;
+  color:#ffffff;
+}
+
+#icon-categories-index-w{
+  width: 60px;
+  color:#ffffff;
+}
+
+#icon-categories-index-w-plus{
+  width: 70px;
+  color:#ffffff;
+}
+/* -------------------------------- */
+
+
+
+/* ------------ Destaques Page ------------ */
+.imgpage {
+  width: 150px;
+  height: 148px;
+  border-radius: 13px 13px 0px 0px;
+}
+
+.gamenamespage {
+  width:150px;
+  text-align:left;
+  padding-left:5px;
+  padding-right:5px;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.textbox {
+  width:150px;
+  background-color: #ba225c;
+}
+
+.destaques-text{
+  font-size: 16px;
+  color: #ffffff;
+  font-family: MYRIADPRO-REGULAR;
+}
+/* ------------------------------------ */
+
+
+
+/* ------------ FOOTER ------------ */
+
+.btnfooter {
+  border-radius: 15px;
+  height: 46px;
+  width: 200px;
+  background-color: #4D4D4D;
+  color: #07EFEF;
+  border-color: #07EFEF;
+  font-size: 21px;
+  font-family: MYRIADPRO-REGULAR;
+  border-style: solid;
+  border-width: small;
+}
+
+.btnfooter:hover {
+  background-color: #07EFEF;
+  color: #ffffff;
+}
+
+.footer-text h5{
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+  color: #ffffff;
+}
+
+.footer-text h5::before{
+  content:"";
+  position: absolute;
+  text-align: center;
+  bottom: -10px;
+  background-color: #ba225c;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-text ul li:not(:last-child){
+  margin-bottom: 6px;
+}
+
+.footer-text ul li a{
+  font-size: 18px;
+  color: #ffffff;
+  font-family: MYRIADPRO-REGULAR;
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-text ul li a:hover{
+  color: #ffffff;
+  padding-left: 10px;
+}
+
+.footer{
+  background-color: #4D4D4D;
+  font-family: MYRIADPRO-REGULAR;
+  flex-wrap: none;
+  min-height: 450px;
+}
+
+/* ------------------------------------ */
+
+
+
+@media
+(prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@media(max-width:767px){
+  .footer-responsive{
+    width:50%;
+    margin-bottom:30px;
+  }
+}
+
+@media(max-width:574px){
+  .footer-responsive{
+    width:100%;
+  }
+}
+
+
+
+/*---------------- IMPORT FONTS ----------------*/
+@font-face {
+    font-family: lemonMilkLight;
+    src: url(fonts/LemonMilkLight-owxMq.ttf);
+}
+
+@font-face {
+    font-family: MYRIADPRO-REGULAR;
+    src: url(fonts/MYRIADPRO-REGULAR.ttf);
+}
+
+@font-face {
+  font-family: Portico-Outline;
+  src: url(fonts/Portico\ Outline.ttf);
+}
+/*---------------------------------------------*/
+
+
+
+/*----------------- Portrait -----------------*/
+@media screen
+
+and (device-width: 360px)
+
+and (device-height: 640px)
+
+and (-webkit-device-pixel-ratio: 3)
+
+and (orientation: portrait) {
+}
+/*---------------------------------------------*/
+
+
+
+/*----------------- Landscape -----------------*/
+
+@media screen
+
+and (device-width: 360px)
+
+and (device-height: 640px)
+
+and (-webkit-device-pixel-ratio: 3)
+
+and (orientation: landscape) {
+}
+/*---------------------------------------------*/
+
+
+
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {}
+
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {}
+/*---------------------------------------------*/
+
+
+
+
+
+/*----------------- MENU BUTTONS -----------------*/
+/* Dropdown Button */
+.dropbtn {
+  color: white;
+  border: none;
+  font-size: 16px;
+  background-color: #ba225c;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu{
+  padding:0;
+  background-color: #932255;
+  top:99%;
+  border-radius:0%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  background-color: #932255;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+h6{
+  color: #ffffff;
+  font-family: lemonMilkLight;
+  text-decoration: underline;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #ffffff;
+  padding: 4px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ba225c;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #ad215a;}
+
+/*----------------------------------------------------------------------------------------------*/
+
+
+
+/*------------------- new menu --------------------*/
+.dropdown-hover:hover>.dropdown-menu {
+  display: inline-block;
+  }
+
+.dropdown-hover>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+  }
+
+.box-newslleter {
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+  }
+/*------------------------------------------------*/
+
+
+
+/* ==========================================
+========================================== */
+body {
+  background: #2a2e32;
+}
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.form-control {
+  background: #212529;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #212529;
+}
+/* ==========================================
+========================================== */
+
+
+
+
+
+
+/* ==========================================
+      mega menu
+    ========================================== */
+.navbar .megamenu{ padding: 1rem; }
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+  .navbar .has-megamenu{position:static!important;}
+  .navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+
+}
+/* ============ desktop view .end// ============ */
+
+
+/* ============ mobile view ============ */
+@media(max-width: 991px){
+  .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+    overflow-y: auto;
+      max-height: 90vh;
+      margin-top:10px;
+  }
+}
+/* ============ mobile view .end// ============ */
