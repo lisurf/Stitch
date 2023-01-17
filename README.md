@@ -25,6 +25,6 @@ The user can create an account, sign up with Google or Steam for example. Can al
 # Email to recover password
 ![](screenshots/Resetar-pp-pc.png)
 
-# Video
-In the video above, you can see how the website works.
-[![Watch the video](screenshots/1.png)](screenshots/stitch.mp4)
+[//]: # '# Video (Sorry about that, but we can’t show files that are this big right now.)'
+[//]: # 'In the video above, you can see how the website works.'
+[//]: # '[![Watch the video](screenshots/1.png)](screenshots/stitch.mp4)'
