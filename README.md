@@ -1,9 +1,8 @@
 # Stitch
 
-This was the final project of the Web Design course which I finished in 2022.
-I had to create a website idea and put it into practice. In this website, the user can search for games from all the platforms, and find the best price in the shortest time possible. The objective is benefit the user and allow him to play as much as possible instead of wasting time looking for the best price in the market. <br>
+This was the final project of the Web Design course that I finished in 2022.
+The goal was to create a website idea and put it into practice. In this website, the user can search for games from all the platforms, and find the best price in the shortest time possible. The objective is benefit the user and allow him to play as much as possible instead of wasting time looking for the best price in the market. <br>
 I created all the design in the Adobe Illustrator and made some animations on Adobe XD. After that I put it in code. <br>
-The user can create a account, sign up with google or steam for exemple. Can put the games in in a favorites list, and recive notifications of chages of prices.
 
 ## Home Page
 ![](screenshots/1.png)
@@ -14,6 +13,7 @@ The user can create a account, sign up with google or steam for exemple. Can put
 ![](screenshots/4.png)
 
 # Sign up
+The user can create an account, sign up with Google or Steam for example. Can also put the games in a favorites list, and receive notifications of prices changes.
 ![](screenshots/5.png)
 
 # Sign in
@@ -22,3 +22,9 @@ The user can create a account, sign up with google or steam for exemple. Can put
 # 404 error page
 ![](screenshots/7.png)
 
+# Email to recover password
+![](screenshots/Resetar-pp-pc.png)
+
+# Video
+In the video above, you can see how the website works.
+[![Watch the video](screenshots/1.png)](screenshots/stitch.mp4)
