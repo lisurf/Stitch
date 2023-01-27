@@ -3,6 +3,9 @@
 This was the final project of the Web Design course that I finished in 2022.
 The goal was to create a website idea and put it into practice. In this website, the user can search for games from all the platforms, and find the best price in the shortest time possible. The objective is benefit the user and allow him to play as much as possible instead of wasting time looking for the best price in the market. <br>
 I created all the design in the Adobe Illustrator, mockups and wireframes in desktop/mobile versions and made some animations on Adobe XD. After that I put it in code. <br>
+<br>
+I made the logo in Procreate, along with the slogan that I also animated.
+<br>
 
 ## Home Page
 ![](screenshots/1.png)
@@ -21,6 +24,12 @@ The user can create an account, sign up with Google or Steam for example. Can al
 
 # 404 error page
 ![](screenshots/7.png)
+
+# Logo
+![](screenshots/stitch_logo.png)
+
+# Slogan
+![](screenshots/frase.gif)
 
 # Email to recover password
 ![](screenshots/Resetar-pp-pc.png)
